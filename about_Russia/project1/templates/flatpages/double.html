@@ -1,0 +1,11 @@
+{% extends 'flatpages/default.html' %}
+
+{% block title %}
+{{ flatpage.title }}
+{% endblock title %}
+
+{% block content %}
+{{ flatpage.content }}
+{{ flatpage.content }}
+{% include 'flatpages/copyright.html' %}
+{% endblock content %}
